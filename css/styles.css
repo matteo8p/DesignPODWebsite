@@ -4,7 +4,6 @@
   background-color: #001A57;
   overflow: auto;
   list-style-type: none;
-  margin-left: 5.5%;
   padding: 10px;
 }
 #home, #search, #order, #about {
@@ -29,20 +28,17 @@ body {
   overflow: hidden;
 }
 #PODLogo {
-  filter: grayscale(100);
-  margin-left: 34.5%;
-  width: 30%;
-  padding: 0px;
-  margin-top: 2%;
+  width: 80%;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 input[type=text] {
-  margin-left: 31.5%;
   magin-top: 5%;
-  width: 35%;
-  font-size: 25px;
+  width: 60%;
+  font-size: 20px;
   color: #000000;
   border-radius: 30px;
-  padding: 10px;
+  padding: 5px;
   border: 4px solid #ffffff;
 }
 table {
@@ -91,6 +87,16 @@ p {
   text-align: center;
   overflow: hidden;
 }
+#searchform
+{
+	padding-bottom: 20px;
+}
+.searchresults
+{
+	margin-top: 5%;
+}
+
+
 @media only screen and (max-width: 1200px) {
   #home, #search, #order, #about {
     float: none;
@@ -100,10 +106,6 @@ p {
     border-right: none;
     overflow: hidden;
   }
-  #PODLogo {
-    margin-left: 25%;
-    width: 60%;
-  }
   ul {
     width: 100%;
     background-color: #001A57;
@@ -112,10 +114,17 @@ p {
     margin: 0;
     padding: 0;
   }
-  input[type=text] {
-    margin-left: 37%;
-  }
   #sections {
     margin-left: 8%;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  #navigation {
+    width: 100%;
+    background-color: #001A57;
+    overflow: auto;
+    margin-left: 8.5%;
+    list-style-type: none;
+    padding: 10px;
   }
 }
